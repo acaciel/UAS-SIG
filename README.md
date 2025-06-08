@@ -43,7 +43,7 @@ Dengan menggunakan metode pembuatan data yang lebih stabil, model yang dilatih m
     accuracy                           0.96       200
    macro avg       0.96      0.93      0.94       200
 weighted avg       0.96      0.96      0.96       200
-
+```
 > **Interpretasi:** Model ini sangat andal dalam mengidentifikasi area aman (precision 97%, recall 99%) dan memiliki kemampuan yang kuat untuk mendeteksi area rawan banjir (precision 95%, recall 88%). `weighted avg f1-score` sebesar 96% menunjukkan performa model yang sangat memuaskan.
 
 ### Analisis Faktor Penting
