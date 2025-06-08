@@ -34,16 +34,17 @@ Proyek ini menggunakan beberapa set, yaitu:
 Dengan menggunakan metode pembuatan data yang lebih stabil, model yang dilatih menunjukkan kinerja yang sangat baik dan sesuai dengan target, dengan akurasi keseluruhan mencapai **96%**.
 
 **Classification Report:**
-          precision    recall  f1-score   support
+```text
+              precision    recall  f1-score   support
 
-       0        0.97      0.99      0.98      160
-       1        0.95      0.88      0.91       40
+           0       0.97      0.99      0.98       160
+           1       0.95      0.88      0.91        40
 
-accuracy                            0.96      200
-macro avg       0.96      0.93      0.94      200
-weighted avg    0.96      0.96      0.96      200
+    accuracy                           0.96       200
+   macro avg       0.96      0.93      0.94       200
+weighted avg       0.96      0.96      0.96       200
 
-> **Interpretasi:** Model ini sangat andal dalam mengidentifikasi area aman (presisi 93%, recall 99%) dan memiliki kemampuan yang kuat untuk mendeteksi area rawan banjir (presisi 95%, recall 88%). `weighted avg f1-score` sebesar 96% menunjukkan performa model yang sangat memuaskan.
+> **Interpretasi:** Model ini sangat andal dalam mengidentifikasi area aman (precision 97%, recall 99%) dan memiliki kemampuan yang kuat untuk mendeteksi area rawan banjir (precision 95%, recall 88%). `weighted avg f1-score` sebesar 96% menunjukkan performa model yang sangat memuaskan.
 
 ### Analisis Faktor Penting
 Analisis `feature importance` menunjukkan bahwa faktor-faktor berikut memiliki pengaruh terbesar dalam prediksi:
